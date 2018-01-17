@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400236E8200EE2ED0042DD90 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400236E7200EE2ED0042DD90 /* HistoryManager.swift */; };
+		400236EA200EEB600042DD90 /* HistoryEntryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400236E9200EEB600042DD90 /* HistoryEntryTableViewCell.swift */; };
+		400236EC200EEE400042DD90 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400236EB200EEE400042DD90 /* HistoryTableViewController.swift */; };
 		4087A288200DB4C600584F3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087A287200DB4C600584F3A /* AppDelegate.swift */; };
 		4087A28A200DB4C600584F3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4087A289200DB4C600584F3A /* ViewController.swift */; };
 		4087A28D200DB4C600584F3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4087A28B200DB4C600584F3A /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400236E7200EE2ED0042DD90 /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		400236E9200EEB600042DD90 /* HistoryEntryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEntryTableViewCell.swift; sourceTree = "<group>"; };
+		400236EB200EEE400042DD90 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		4087A284200DB4C600584F3A /* Tennis Scorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Scorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4087A287200DB4C600584F3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4087A289200DB4C600584F3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				4087A28E200DB4C600584F3A /* Assets.xcassets */,
 				4087A290200DB4C600584F3A /* LaunchScreen.storyboard */,
 				4087A293200DB4C600584F3A /* Info.plist */,
+				400236E7200EE2ED0042DD90 /* HistoryManager.swift */,
+				400236EB200EEE400042DD90 /* HistoryTableViewController.swift */,
+				400236E9200EEB600042DD90 /* HistoryEntryTableViewCell.swift */,
 			);
 			path = "Tennis Scorer";
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400236E8200EE2ED0042DD90 /* HistoryManager.swift in Sources */,
 				4087A28A200DB4C600584F3A /* ViewController.swift in Sources */,
+				400236EA200EEB600042DD90 /* HistoryEntryTableViewCell.swift in Sources */,
 				4087A288200DB4C600584F3A /* AppDelegate.swift in Sources */,
+				400236EC200EEE400042DD90 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
